@@ -5,77 +5,54 @@ export default {
 			"pageUrl": "root",
 			"name": "root",
 			"children": [
-				"5eba3f5f46cf7b001ed137c9",
-				"5eba438946cf7b001ed137f2",
-				"5eba437d46cf7b001ed137ee",
-				"5eba439246cf7b001ed137f6",
-				"5eba439746cf7b001ed137fa",
-				"5eba439c46cf7b001ed137fe",
-				"5f4671bd6724f4001e384823"
+				"5e7a316e3ca8040017b272a0",
+				"5e7a316e3ca8040017b272a2",
+				"5ecbb3b4eaca2d001f2b1091",
+				"5f365650669357001e60d8ed",
+				"5f5a16350840a3001ed7e6ae",
+				"5f6852160fb50e001fbe987e"
 			]
 		},
-		"5eba3f5f46cf7b001ed137c9": {
-			"id": "5eba3f5f46cf7b001ed137c9",
+		"5e7a316e3ca8040017b272a0": {
+			"id": "5e7a316e3ca8040017b272a0",
+			"name": "404",
+			"pageUrl": "404"
+		},
+		"5e7a316e3ca8040017b272a2": {
+			"id": "5e7a316e3ca8040017b272a2",
 			"name": "index",
 			"pageUrl": "index",
 			"seo": {
-				"title": "The Bouquet Floral Studio",
-				"description": "We are a team of professionals who are passionate about the world of flowers and plants",
-				"og:title": "The Bouquet Floral Studio",
-				"og:description": "We are a team of professionals who are passionate about the world of flowers and plants",
-				"og:img": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30",
-				"favicon_32px": "https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-32.png?v=2020-09-21T10:01:10.724Z",
-				"favicon_apple_152px": "https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-152.png?v=2020-09-21T10:01:10.746Z",
-				"favicon_win10_270px": "https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-270.png?v=2020-09-21T10:01:10.734Z",
-				"background_win10": "#FFF",
-				"og:image": "https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-og-image.png?v=2020-09-21T10:01:10.825Z"
-			},
-			"styles": {
-				"border-width": 0,
-				"border-style": "",
-				"border-color": ""
+				"background_win10": "#ff1616",
+				"favicon_apple_152px": "",
+				"favicon_win10_270px": "",
+				"favicon_32px": ""
 			}
 		},
-		"5eba437d46cf7b001ed137ee": {
-			"id": "5eba437d46cf7b001ed137ee",
-			"pageUrl": "services",
-			"name": "Services",
-			"children": []
+		"5ecbb3b4eaca2d001f2b1091": {
+			"id": "5ecbb3b4eaca2d001f2b1091",
+			"pageUrl": "test",
+			"name": "test"
 		},
-		"5eba438946cf7b001ed137f2": {
-			"id": "5eba438946cf7b001ed137f2",
-			"pageUrl": "portfolio",
-			"name": "Portfolio"
+		"5f365650669357001e60d8ed": {
+			"id": "5f365650669357001e60d8ed",
+			"pageUrl": "fefef",
+			"name": "fefef"
 		},
-		"5eba439246cf7b001ed137f6": {
-			"id": "5eba439246cf7b001ed137f6",
-			"pageUrl": "workshops",
-			"name": "Workshops"
-		},
-		"5eba439746cf7b001ed137fa": {
-			"id": "5eba439746cf7b001ed137fa",
-			"pageUrl": "blog",
-			"name": "Blog",
-			"styles": {
-				"background": "--secondaryGradient"
+		"5f5a16350840a3001ed7e6ae": {
+			"id": "5f5a16350840a3001ed7e6ae",
+			"pageUrl": "page2",
+			"name": "page1",
+			"seo": {
+				"title": "",
+				"og:title": ""
 			}
 		},
-		"5eba439c46cf7b001ed137fe": {
-			"id": "5eba439c46cf7b001ed137fe",
-			"pageUrl": "contact",
-			"name": "Contact",
-			"styles": {
-				"background": "#4a1616",
-				"text-decoration-line": "",
-				"color": "#953a3a"
-			}
-		},
-		"5f4671bd6724f4001e384823": {
-			"id": "5f4671bd6724f4001e384823",
-			"pageUrl": "404",
-			"name": "404"
+		"5f6852160fb50e001fbe987e": {
+			"id": "5f6852160fb50e001fbe987e",
+			"pageUrl": "page24",
+			"name": "page24"
 		}
 	},
-	"mode": "production",
 	"projectType": "gatsby"
 }

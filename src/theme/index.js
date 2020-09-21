@@ -18,16 +18,28 @@ export default {
 				"type": "max-width",
 				"value": 992
 			}
+		],
+		"xs": [
+			{
+				"type": "max-width",
+				"value": "480"
+			}
+		],
+		"xl": [
+			{
+				"type": "min-width",
+				"value": 0
+			}
 		]
 	},
 	"color": {
 		"dark": "#04080C",
 		"darkL1": "#0E1317",
 		"darkL2": "#191E22",
-		"grey": "#b4b9c5",
-		"greyD1": "#6378в97",
+		"grey": "#6F839F",
+		"greyD1": "#637897",
 		"greyD2": "#586D8E",
-		"light": "#f7f4f9",
+		"light": "#F7FBFF",
 		"lightD1": "#EDF2F6",
 		"lightD2": "#E4E8EC",
 		"green": "#00875A",
@@ -48,16 +60,14 @@ export default {
 		"serifTimes": "Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif",
 		"serifGeorgia": "Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif",
 		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif",
-		"googleArbutusSlab": "Arbutus Slab, serif",
-		"googleMontserrat": "Montserrat, sans-serif",
-		"googleSourceSansPro": "Source Sans Pro, sans-serif"
+		"googleRoboto": "Roboto, sans-serif"
 	},
 	"font": {
-		"headline1": "normal normal 900 182px/1.2 --fontFamily-googleSourceSansPro",
+		"headline1": "normal 900 72px/1.2 --fontFamily-sans",
 		"headline2": "normal 900 42px/1.2 --fontFamily-sans",
 		"headline3": "normal 500 28px/1.2 --fontFamily-sans",
-		"base": "normal 500 15px/1.5 --fontFamily-googleSourceSansPro",
-		"lead": "normal 600 20px/1.5 --fontFamily-googleMontserrat"
+		"base": "normal 300 16px/1.5 --fontFamily-sans",
+		"lead": "normal 300 20px/1.5 --fontFamily-sans"
 	},
 	"boxShadow": {
 		"m": "0 4px 5px -1px rgba(0, 0, 0, 0.1)",
@@ -66,7 +76,7 @@ export default {
 		"xxl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
 	},
 	"background": {
-		"primaryGradient": "linear-gradient(180deg, --color-primary, transparent) no-repeat 0 0",
+		"primaryGradient": "--color-primary",
 		"secondaryGradient": "linear-gradient(180deg, --color-secondary, transparent) no-repeat 0 0"
 	},
 	"transform": {
@@ -155,57 +165,20 @@ export default {
 		}
 	},
 	"fonts": {
-		"Arbutus Slab": {
-			"family": "Arbutus Slab",
-			"type": "google-fonts",
-			"meta": {
-				"category": "serif",
-				"variants": [
-					"regular"
-				]
-			}
-		},
-		"Montserrat": {
-			"family": "Montserrat",
+		"Roboto": {
+			"family": "Roboto",
 			"type": "google-fonts",
 			"meta": {
 				"category": "sans-serif",
 				"variants": [
 					"100",
 					"100italic",
-					"200",
-					"200italic",
 					"300",
 					"300italic",
 					"regular",
 					"italic",
 					"500",
 					"500italic",
-					"600",
-					"600italic",
-					"700",
-					"700italic",
-					"800",
-					"800italic",
-					"900",
-					"900italic"
-				]
-			}
-		},
-		"Source Sans Pro": {
-			"family": "Source Sans Pro",
-			"type": "google-fonts",
-			"meta": {
-				"category": "sans-serif",
-				"variants": [
-					"200",
-					"200italic",
-					"300",
-					"300italic",
-					"regular",
-					"italic",
-					"600",
-					"600italic",
 					"700",
 					"700italic",
 					"900",
@@ -214,5 +187,5 @@ export default {
 			}
 		}
 	},
-	"version": 17
+	"version": 6
 }
