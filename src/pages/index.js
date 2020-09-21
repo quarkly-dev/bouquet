@@ -2,10 +2,28 @@ import React from "react";
 import theme from "theme";
 import { Theme, Text, Box, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Menu, SocialMedia, Stack, Section, GoogleMap } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
+		<GlobalQuarklyPageStyles pageUrl={"index"} />
+		<Helmet>
+			<title>
+				The Bouquet Floral Studio
+			</title>
+			<meta name={"description"} content={"We are a team of professionals who are passionate about the world of flowers and plants"} />
+			<meta property={"og:title"} content={"The Bouquet Floral Studio"} />
+			<meta property={"og:description"} content={"We are a team of professionals who are passionate about the world of flowers and plants"} />
+			<meta property={"og:image"} content={"https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-og-image.png?v=2020-09-21T10:01:10.825Z"} />
+			<link rel={"shortcut icon"} href={"https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-32.png?v=2020-09-21T10:01:10.724Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-152.png?v=2020-09-21T10:01:10.746Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-152.png?v=2020-09-21T10:01:10.746Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-152.png?v=2020-09-21T10:01:10.746Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-152.png?v=2020-09-21T10:01:10.746Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-270.png?v=2020-09-21T10:01:10.734Z"} />
+			<meta name={"msapplication-TileColor"} content={"#FFF"} />
+		</Helmet>
 		<Section padding="100px 0px 100px 0px" background="--color-light" position="relative">
 			<Stack gap="0px" margin="0px 0px 61px 0px" padding="0px">
 				<StackItem

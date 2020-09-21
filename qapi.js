@@ -19,11 +19,21 @@ export default {
 			"name": "index",
 			"pageUrl": "index",
 			"seo": {
-				"title": "",
-				"description": "",
-				"og:title": "",
-				"og:description": "",
-				"og:img": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30"
+				"title": "The Bouquet Floral Studio",
+				"description": "We are a team of professionals who are passionate about the world of flowers and plants",
+				"og:title": "The Bouquet Floral Studio",
+				"og:description": "We are a team of professionals who are passionate about the world of flowers and plants",
+				"og:img": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30",
+				"favicon_32px": "https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-32.png?v=2020-09-21T10:01:10.724Z",
+				"favicon_apple_152px": "https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-152.png?v=2020-09-21T10:01:10.746Z",
+				"favicon_win10_270px": "https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-favicon-270.png?v=2020-09-21T10:01:10.734Z",
+				"background_win10": "#FFF",
+				"og:image": "https://test-upl.quarkly.io/5eba3f5f46cf7b001ed137c4/images/bouquet-og-image.png?v=2020-09-21T10:01:10.825Z"
+			},
+			"styles": {
+				"border-width": 0,
+				"border-style": "",
+				"border-color": ""
 			}
 		},
 		"5eba437d46cf7b001ed137ee": {
@@ -66,5 +76,6 @@ export default {
 			"name": "404"
 		}
 	},
+	"mode": "production",
 	"projectType": "gatsby"
 }

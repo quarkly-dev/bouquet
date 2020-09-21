@@ -3,6 +3,11 @@ import { transformVar } from "@quarkly/atomize";
 import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
+    "index": {
+        "border-width": 0,
+        "border-style": "",
+        "border-color": ""
+    },
     "blog": {
         "background": "--secondaryGradient"
     },
