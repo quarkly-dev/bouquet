@@ -414,7 +414,7 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
-			<style place={"endOfHead"} rawKey={"606709c408e705109cff2fe5"}>
+			<style place={"endOfBody"} rawKey={"60670bb162492bf729e40544"}>
 				{"a[href=\"https://quarkly.io\"] {\ndisplay: none;\n}"}
 			</style>
 		</RawHtml>
