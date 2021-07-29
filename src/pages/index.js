@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Menu, SocialMedia, Stack, Section, GoogleMap } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Menu, SocialMedia, Stack, GoogleMap } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -328,7 +328,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfBody"} rawKey={"60670bb162492bf729e40544"}>
-				{"a[href=\"https://quarkly.io\"] {\ndisplay: none;\n}"}
+				{"a[href=\"https://quarkly.io/\"] {\ndisplay: none;\n}"}
 			</style>
 		</RawHtml>
 	</Theme>;

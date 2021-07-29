@@ -38,7 +38,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfBody"} rawKey={"60670bb162492bf729e40544"}>
-				{"a[href=\"https://quarkly.io\"] {\ndisplay: none;\n}"}
+				{"a[href=\"https://quarkly.io/\"] {\ndisplay: none;\n}"}
 			</style>
 		</RawHtml>
 	</Theme>;
